@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibiane Kafando | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Image/logo BK.png" alt="BK Logo">
+            </div>
+            
+            <div class="menu-burger" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul id="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        const burger = document.getElementById('burger-menu');
+        const nav = document.getElementById('nav-links');
+
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            burger.classList.toggle('toggle');
+        });
+    </script>
+
+    <section id="accueil" class="hero">
+        <div class="hero-text">
+            <h1>Bibiane <span class="highlight">KAFANDO</span></h1>
+            <p>Modélisation, Simulation et Calcul Scientifique | Marketing Digital | Développement Web</p>
+            <a href="#portfolio" class="btn">Consulter mes réalisations</a>
+        </div>
+    </section>
+
+    <section id="a-propos">
+        <h2>À Propos</h2>
+        <div class="about-content">
+            <p>Je suis <strong>Bibiane Kafando</strong>, étudiante en Modélisation, Simulation et Calcul Scientifique. Mon parcours s'appuie sur des compétences variées, allant du marketing digital au développement Web (formation en cours), en passant par la gestion de bureau et la saisie de données.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Mes Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Marketing Digital</h3>
+                <p>Création de visuels, branding et stratégie de communication digitale.</p>
+            </div>
+            <div class="service-card">
+                <h3>Développement Web</h3>
+                <p>Conception de sites avec <strong>HTML, CSS, WordPress et Bootstrap</strong>.</p>
+            </div>
+            <div class="service-card">
+                <h3>Calcul Scientifique</h3>
+                <p>Modélisation mathématique, simulation numérique et analyse de données.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Mes Réalisations</h2>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-item"><img src="Image/Agroderv industri.jpg" alt="Agroderv"></div>
+            <div class="portfolio-item"><img src="Image/ALFRED BOYER.png" alt="Alfred Boyer"></div>
+            <div class="portfolio-item"><img src="Image/b.png" alt="BS"></div>
+            <div class="portfolio-item"><img src="Image/BIBIANE.png" alt="Bibiane"></div>
+            <div class="portfolio-item"><img src="Image/Bilar logo.png" alt="Logo Bilar"></div>
+            <div class="portfolio-item"><img src="Image/Bonne 1.png" alt="Bonne 1"></div>
+            <div class="portfolio-item"><img src="Image/Bonne.png" alt="Bonne"></div>
+            <div class="portfolio-item"><img src="Image/Business.jpg" alt="Business"></div>
+            <div class="portfolio-item"><img src="Image/DIGITAL.jpg" alt="Digital"></div>
+            <div class="portfolio-item"><img src="Image/Visuel.png" alt="Visuel"></div>
+            <div class="portfolio-item"><img src="Image/Votre texte de paragraphe.png" alt="Texte"></div>
+            <div class="portfolio-item"><img src="Image/Ajouter un titre.jpg" alt="Titre"></div>
+            
+            <div class="portfolio-item code-item"><img src="Image/Capture d'écran 2026-02-27 103847.png" alt="Code 1"></div>
+            <div class="portfolio-item code-item"><img src="Image/Capture d'écran 2026-02-27 104103.png" alt="Code 2"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email : <strong>Kafandobibiane4@gmail.com</strong></p>
+            <p>Tel : <strong>74 07 66 40 / 62 22 06 45</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Bibiane Kafando - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
