@@ -184,6 +184,24 @@ footer {
     transition: 0.3s;
 }
 
+
+.container-central {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 100%;
+    margin: 50px 0;         
+}
+
+
+.contact-links {
+    display: flex;
+    gap: 20px;              
+    flex-wrap: wrap;        
+    justify-content: center;
+}
+
+
 .btn-link {
     text-decoration: none;
     padding: 15px 30px;
@@ -218,6 +236,7 @@ footer {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     opacity: 0.9;
 }
+
 @media (max-width: 768px) {
     .menu-burger {
         display: flex; 
@@ -253,5 +272,4 @@ footer {
 
     .hero h1 { font-size: 2rem !important; }
     section { padding: 80px 5%; }
-
 }
